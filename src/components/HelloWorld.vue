@@ -2,15 +2,17 @@
   <div class="hello">
   </div>
 </template>
-
+<Header></Header>
 <script>
+    import Header from './layout/Header.Vue'
 export default {
   name: 'HelloWorld',
   data () {
     return {
       msg: 'Welcome to Your Vue.js App'
     }
-  }
+  },
+    components :{Header : Header}
 }
 </script>
 
